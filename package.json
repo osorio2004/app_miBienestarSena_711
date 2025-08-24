@@ -10,7 +10,7 @@
     "seed": "sequelize db:seed:all",
     "migrate:undo": "sequelize db:migrate:undo:all",
     "seed:undo": "sequelize db:seed:undo:all",
-    "postinstall": "sequelize db:migrate && sequelize db:seed:all"
+    "postinstall": "npx sequelize-cli db:migrate --env production && npx sequelize-cli db:seed:all --env production"
   },
   
   "keywords": [],
