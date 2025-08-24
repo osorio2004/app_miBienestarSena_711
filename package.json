@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon server.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "migrate": "sequelize db:migrate",
-    "migrate:undo": "sequelize db:migrate:undo:all",
     "seed": "sequelize db:seed:all",
+    "migrate:undo": "sequelize db:migrate:undo:all",
     "seed:undo": "sequelize db:seed:undo:all",
-    "all-dev": "sequelize db:migrate:undo:all && sequelize db:migrate && sequelize db:seed:all && nodemon server.js",
-    "all": "sequelize db:migrate:undo:all && sequelize db:migrate && sequelize db:seed:all"
+    "postinstall": "sequelize db:migrate && sequelize db:seed:all"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
