@@ -10,9 +10,9 @@
     "seed": "sequelize db:seed:all",
     "migrate:undo": "sequelize db:migrate:undo:all",
     "seed:undo": "sequelize db:seed:undo:all",
-    "postinstall": "npx sequelize db:migrate && sequelize db:seed:all"
+    "postinstall": "sequelize db:migrate && sequelize db:seed:all"
   },
-
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
