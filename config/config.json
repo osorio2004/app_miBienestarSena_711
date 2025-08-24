@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "anders",
+    "password": "WtnaDxiIaRpiNPsDNQpM2oXYbKH3lQvk",
+    "database": "mibienestar711_5cub",
+    "host": "dpg-d2l969re5dus738iq40g-a.oregon-postgres.render.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "dpg-d2l969re5dus738iq40g-a.oregon-postgres.render.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "dpg-d2l969re5dus738iq40g-a.oregon-postgres.render.com",
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
+  }
+}
