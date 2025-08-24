@@ -20,6 +20,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Rol',
+    tableName: 'rols' // ¡Añade esta línea! Le dice a Sequelize el nombre exacto.
   });
   return Rol;
 };
