@@ -10,8 +10,8 @@ module.exports = {
         endDate: new Date('2025-09-15T14:00:00'),
         state: 'scheduled',
         maxCapacity: 50,
-        CategoryId: 1, // Deporte
-        UserId: 2, // Creado por Ana Gomez
+        categoryId: 1, // Deporte
+        userId: 2,     // Creado por Ana Gomez
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -22,8 +22,8 @@ module.exports = {
         endDate: new Date('2025-10-05T23:00:00'),
         state: 'scheduled',
         maxCapacity: 200,
-        CategoryId: 2, // Cultura
-        UserId: 3, // Creado por Carlos Perez
+        categoryId: 2, // Cultura
+        userId: 3,     // Creado por Carlos Perez
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -34,8 +34,8 @@ module.exports = {
         endDate: new Date('2025-09-20T13:00:00'),
         state: 'scheduled',
         maxCapacity: 30,
-        CategoryId: 3, // Educación
-        UserId: 4, // Creado por Laura Diaz
+        categoryId: 3, // Educación
+        userId: 4,     // Creado por Laura Diaz
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -46,8 +46,8 @@ module.exports = {
         endDate: new Date('2025-09-21T09:30:00'),
         state: 'scheduled',
         maxCapacity: 40,
-        CategoryId: 4, // Salud y Bienestar
-        UserId: 5, // Creado por Jorge Lopez
+        categoryId: 4, // Salud y Bienestar
+        userId: 5,     // Creado por Jorge Lopez
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -58,8 +58,8 @@ module.exports = {
         endDate: new Date('2025-11-10T18:00:00'),
         state: 'scheduled',
         maxCapacity: 100,
-        CategoryId: 5, // Emprendimiento
-        UserId: 2, // Creado por Ana Gomez
+        categoryId: 5, // Emprendimiento
+        userId: 2,     // Creado por Ana Gomez
         createdAt: new Date(),
         updatedAt: new Date()
       }
